@@ -42,7 +42,7 @@ Provider/tool/runtime/infrastructure failure prevented meaningful completion.
 
 ## Filtering rule
 
-V1.1 exception: intentional successful Stop is local stopped/cancelled runtime state, with resumable Working State. It emits no semantic inbox event, no success, no default failure, and no Controller wake. A decision candidate is internal to the Pipe; only its one-shot Gate may produce OWNER_DECISION. No fifth inbox status is added. See V1_1_CLARIFICATIONS.md.
+Intentional successful Stop is local stopped/cancelled runtime state, with resumable Working State in `.ai/work/<CHANGE_ID>.json`. It emits no semantic inbox event, no success, no default failure, and no Controller wake. A decision candidate is internal to the Pipe; only its one-shot Gate may produce OWNER_DECISION. No fifth inbox status is added. On resumption, read the current card, checkpoint and actual Git/files before continuing; do not infer that a stopped job completed.
 
 Progress, tool calls, intermediate retries, test logs, and model thoughts are never inbox events.
 

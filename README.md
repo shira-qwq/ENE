@@ -4,6 +4,8 @@
 
 ## 开始
 
+新窗口从 [新项目启动入口](docs/PROJECT_START.md) 开始，里面包含可直接使用的启动指令、复制 ENE 自身的边界和常见问题处理。
+
 需要本机 Node.js 和 Git。运行 `node scripts/project-home.mjs --refresh`，再运行 `node results/refresh.mjs`，最后 `node scripts/project-home.mjs --serve`；打开终端给出的本机地址。关闭服务在启动终端按 Ctrl+C。首次愿望由接手模型按 AGENTS.md 写入。
 
 新对话需能访问本地目录，先读 AGENTS.md 和当前文件。仅在网页聊天中获得仓库链接不能操作本机文件。PI 为可选 Builder，需另行配置本地 CLI、模型认证和 `.ai/runtime.json`，仓库不包含这些私有设置。

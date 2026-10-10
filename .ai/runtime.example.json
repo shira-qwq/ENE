@@ -1,0 +1,11 @@
+{
+  "provider": "commandcode",
+  "model": "deepseek/deepseek-v4.1-flash",
+  "thinking": "medium",
+  "provider_extension": null,
+  "pi_cli": null,
+  "auto_open_result": false,
+  "show_windows_notification": true,
+  "v1_1": true,
+  "home_port": 8766
+}

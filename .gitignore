@@ -1,0 +1,23 @@
+# Historical material remains untouched; only the V1 probe is tracked here.
+/.pi/
+/backend-v0-work/
+/ene-pilot/
+/ene-workflow/
+/experiments/
+/handoff-backend-v0/
+/handoff-r2/
+/handoff-r3/
+/LOCAL_RESULT/
+/REVIEW_RESULT/
+node_modules/
+*.log
+__pycache__/
+/.ai/jobs/
+/.ai/runs/
+/.ai/outbox/
+/.ai/inbox/
+/.ai/work/
+/.ai/needs-me.json
+/.ai/acceptance/
+/.ai/runtime.json
+/.ai/publish/

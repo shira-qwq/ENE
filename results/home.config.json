@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "default_profile": "ene",
+  "profiles": [
+    {
+      "id": "ene",
+      "label": "当前项目",
+      "source": "ene",
+      "title": "你的愿望，做到哪里了。",
+      "subtitle": "选择一个愿望，看回应、作品和下一步。",
+      "eyebrow": "ENE / PROJECT HOME",
+      "modules": [
+        {
+          "id": "wishes",
+          "type": "wants",
+          "title": "我的愿望"
+        },
+        {
+          "id": "outcomes",
+          "type": "results",
+          "title": "这个愿望的回应"
+        },
+        {
+          "id": "maintenance",
+          "type": "maintenance",
+          "title": "本轮施工与维护",
+          "collapsed": true
+        }
+      ]
+    }
+  ],
+  "roles": {
+    "discussion": {
+      "label": "Codex"
+    },
+    "builder": {
+      "label": "PI",
+      "model": "commandcode/deepseek/deepseek-v4.1-flash"
+    }
+  },
+  "presentation": {
+    "reading_size": 16,
+    "details_open": true
+  },
+  "document_sources": {
+    "history_roots": [
+      "changes/active",
+      "changes/done",
+      "receipts",
+      "docs"
+    ]
+  }
+}

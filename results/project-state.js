@@ -1,0 +1,2 @@
+// Generated from CURRENT + WANT. Edit canonical JSON, then --refresh.
+window.ENE_STATE={"project_id":"bbd076d3efdcc832","home_url":"http://127.0.0.1:8763","current":{"schema":"ene.current.v1","accepted":null,"currentChange":null,"candidates":[],"resultEntry":"results/index.html","artifact":null,"receipt":null,"change_id":null,"accepted_baseline":null},"want":{"version":1,"items":[]},"needs_me":null,"runtime":null,"last_run":null,"history":[],"acceptances":[]};

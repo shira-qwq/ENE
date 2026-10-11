@@ -22,6 +22,9 @@
 ## BASE
 <git commit at delegation time>
 
+## EXECUTION
+<Builder/model; prerequisite cards; allowed write paths. One executing card per working directory.>
+
 ## VERIFY
 <real command/path used to verify>
 

@@ -37,6 +37,7 @@
     document.getElementById('connection').textContent=live?'本地文件投影':M.http?'连接不可用 · 上次保存的投影':'离线投影 · 运行与历史需要本机服务';
   }
   document.getElementById('page-nav').innerHTML=[['index.html','愿望','wants'],['compare.html','对比','compare'],['materials.html','项目资料','materials']].map(([url,label,id])=>`<a href="${pageUrl(url)}" ${page===id?'aria-current="page"':''}>${label}</a>`).join('');
+  document.getElementById('page-nav').insertAdjacentHTML('beforeend',`<a href="${pageUrl('materials.html')}&amp;doc=docs%2FUSER_GUIDE.md">使用说明</a>`);
   const chooser=document.getElementById('project-choice');
   chooser.innerHTML=config.profiles.map(p=>`<option value="${e(p.id)}" ${p.id===profile.id?'selected':''}>${e(p.label)}</option>`).join('');
   chooser.addEventListener('change',()=>{location.href=location.pathname.split('/').pop()+'?p='+encodeURIComponent(chooser.value);});

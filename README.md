@@ -4,6 +4,12 @@
 
 ## 开始
 
+**新建第一句话：**“用这个 ENE 空白基座创建【项目目标】，按 docs/PROJECT_START.md 开始，先确定文件布局和最小交付，再做原型。”
+
+**接手第一句话：**“用 ENE 接手【本地项目路径】，目标是【希望怎样改】；先保存原版本，保留【不能丢的功能】，不要默认搬目录或整仓重写。”
+
+完整示例见 [用户使用说明](docs/USER_GUIDE.md)；Home 顶部的“使用说明”可随时阅读同一份文档。
+
 新窗口从 [新项目启动入口](docs/PROJECT_START.md) 开始，里面包含可直接使用的启动指令、复制 ENE 自身的边界和常见问题处理。
 
 需要本机 Node.js 和 Git。运行 `node scripts/project-home.mjs --refresh`，再运行 `node results/refresh.mjs`，最后 `node scripts/project-home.mjs --serve`；打开终端给出的本机地址。关闭服务在启动终端按 Ctrl+C。首次愿望由接手模型按 AGENTS.md 写入。

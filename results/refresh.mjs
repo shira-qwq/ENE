@@ -26,7 +26,7 @@ if(fs.existsSync(receipt)){
 }
 // Document contents are display snapshots of existing files, not separately maintained facts.
 const root=path.resolve(here,'..'),current=JSON.parse(fs.readFileSync(path.join(root,'results/CURRENT.json'),'utf8'));
-const recent=['results/README.md',current.currentChange?.contract,current.receipt,current.accepted_baseline?.receipt].filter(Boolean);
+const recent=['docs/USER_GUIDE.md','results/README.md',current.currentChange?.contract,current.receipt,current.accepted_baseline?.receipt].filter(Boolean);
 const rules=['README.md','ENE_BASE_V1_FREEZE.md','docs/ENE_PARADIGM.md','00_START_HERE.md','AGENTS.md','CODEX_CONTROLLER_CONTRACT.md','BUILDER_CONTRACT.md','V1_FREEZE.md','V1_1_FREEZE.md','V1_1_CLARIFICATIONS.md','V1_1_INTEGRATION_REPORT.md','EVENT_PROTOCOL.md','APPLY_TO_EXISTING_PROJECT.md'];
 const documentRoots=config.document_sources?.history_roots||['changes/active','changes/done','receipts'];
 function collect(dir){
